@@ -1,11 +1,8 @@
 <?php
-
-declare(strict_types=1);
-
-use Magento\Framework\Component\ComponentRegistrar;
-
-ComponentRegistrar::register(
-    ComponentRegistrar::MODULE,
-    'Mageplaza_HelloWorld',
-    __DIR__,
-);
+ use Magento\Framework\Component\ComponentRegistrar;
+ 
+ ComponentRegistrar::register(
+     ComponentRegistrar::MODULE,
+     'Training_HeaderFooterScripts',
+     __DIR__
+ );
